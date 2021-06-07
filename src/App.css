@@ -1,0 +1,27 @@
+.nav-bar {
+  position: absolute;
+  top: 0;
+}
+
+.page-content {
+  position: relative;
+  top: 4rem;
+  margin: auto auto 5rem auto;
+  max-width: 1024px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.rating {
+  color: rgb(233, 173, 10);
+}
+
+@media (max-width: 1048px) {
+  .page-content {
+    width: 90%;
+    min-width: 350px;
+  }
+}
